@@ -16,17 +16,16 @@ pipeline {
 
                 script {
 
-                    // Lấy URL repository
+                    // Lấy URL repositorydsadasda
                     env.REPOSITORY = sh(
                         script: 'git config --get remote.origin.url',
                         returnStdout: true
                     ).trim()
 
-                    // Lấy tên repository
-                    env.REPOSITORY_NAME = sh(
+                    // Lấy tên repositoryđá
                         script: '''
                             git config --get remote.origin.url |
-                            sed 's/.*\\///' |
+                            sed 's/.*\\///' |aaaaaaaaaas
                             sed 's/\\.git$//'
                         ''',
                         returnStdout: true
