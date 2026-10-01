@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        VERCEL_URL = 'https://ronaldo-zeta.vercel.app/'
+        VERCEL_URL = 'https://devops-test-nguyenvandung-git-main-dung-1ef5.vercel.app/'
     }
 
     stages {
